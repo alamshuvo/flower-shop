@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,100;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+/* common shared styles */
+.container {
+  max-width: 1440px;
+  width: 75%;
+  margin: 0 auto;
+}
+/* img{
+  max-width: 100%;
+} */
+button {
+  border-radius: 8px;
+  background: #e55473;
+  color: #fff;
+  padding: 15px 43px;
+  border: none;
+}
+h2 {
+  color: #272727;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 800;
+}
+p {
+  color: rgba(39, 39, 39, 0.6);
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* header area css */
+#header-area {
+  background: rgba(229, 84, 115, 0.1);
+}
+#header-area .header-area-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+#header-area .header-area-content .header-area-text {
+  text-align: left;
+}
+#header-area .header-area-content .header-area-text h1 {
+  color: #272727;
+  font-size: 60px;
+  font-weight: 800;
+  width: 80%;
+}
+#header-area .header-area-content .header-area-text p{
+    max-width: 480px;
+    text-align: left;
+}
+#header-area .header-area-content .header-area-text * {
+    margin-bottom: 30px;
+}
+#header-area .header-area-content .header-area-img img {
+     max-width: 600px;
+    width: 100%;
+    text-align: center;
+    height: 600px;
+}
+/* header area end */
+
